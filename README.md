@@ -29,7 +29,7 @@ The main objectives are the following:
     * Utilizing more of the Browser
     * Intro to ARIA (Screen Reader)
 
-![Alt Text](https://media.giphy.com/media/3ohs7Xfl0tjxIfVth6/giphy.gif)
+![](https://media.giphy.com/media/3ohs7Xfl0tjxIfVth6/giphy.gif)
 
 
 * Stylin' and Vibin'!
@@ -41,7 +41,7 @@ The main objectives are the following:
     * Intro to KeyFrames
 
 
-![Alt Text](https://thumbs.gfycat.com/HideousPhonyJoey-size_restricted.gif)
+![](https://thumbs.gfycat.com/HideousPhonyJoey-size_restricted.gif)
 
 
 * Javascript can do that for me?
@@ -51,7 +51,7 @@ The main objectives are the following:
     * Common Gotchas and Problems
     * Intro to the Concept of _State_
 
-![Alt Text](https://media.giphy.com/media/VeLkCUzRldjI4/giphy.gif)
+![](https://media.giphy.com/media/VeLkCUzRldjI4/giphy.gif)
 
 ## Who this is for
 
