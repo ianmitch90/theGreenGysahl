@@ -2,6 +2,8 @@
 ## This serves as a guide to those starting out in Web Development
 > new to web development? This project is a living document! This means with time more and more features will be added, changed, and removed. The goal is to have fun, and more importantly an intermedate step in building simple static websites with Vanilla HTML, CSS, Javascript!
 ![Alt Text](https://media.giphy.com/media/fSy1OjveCznws/giphy.gif)
+
+
 #Overview
 
 ## Getting Started
@@ -16,7 +18,7 @@ cd HipsterAirlinesExample
 open index.html
 ```
 
-###Objectives
+##Objectives
 
 
 The main objectives are the following:
