@@ -28,7 +28,7 @@ open index.html
 5. Utilizing more of the Browser
 6. Intro to ARIA (Screen Reader)
 
-![](https://media.giphy.com/media/3ohs7Xfl0tjxIfVth6/giphy.gif)
+![](https://thumbs.gfycat.com/ShadyUnhappyBobwhite-size_restricted.gif)
 
 
 #Stylin' and Vibin'! :sparkles:
@@ -53,7 +53,7 @@ open index.html
 4. Common Problems :sweat_drops:
 5. Intro to the Concept of _State_
 
-![](https://media.giphy.com/media/VeLkCUzRldjI4/giphy.gif)
+![](https://thumbs.gfycat.com/CourteousLoathsomeHummingbird-size_restricted.gif)
 
 ## Who this is for?
 
