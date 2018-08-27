@@ -1,11 +1,11 @@
-# The Green Gysahl
+# The Green Gysahl :leaves:
 
 ## This serves as a guide to those starting out in Web Development
 > new to web development? This project is a living document! This means with time more and more features will be added, changed, and removed. The goal is to have fun, and more importantly an intermedate step in building simple static websites with Vanilla HTML, CSS, Javascript!
 ![Alt Text](https://media.giphy.com/media/fSy1OjveCznws/giphy.gif)
 
 
-## Getting Started
+## Getting Started :runner:
 
 From Terminal:
 
@@ -17,49 +17,47 @@ cd HipsterAirlinesExample
 open index.html
 ```
 
-Objectives:
+#Objectives:
 
+#Really using HTML and making it work for us :muscle:
 
-The main objectives are the following:
-
-####Really using HTML and making it work for us
-
-- Understanding how to layout properly
-- Using Defined Tags to our Advantage
-- Optimizing for Mobile
-- Preloading Assets!
-- Utilizing more of the Browser
-- Intro to ARIA (Screen Reader)
-
+1. Understanding how to layout properly
+2. Using Defined Tags to our Advantage
+3. Optimizing for Mobile
+4. Preloading Assets!
+5. Utilizing more of the Browser
+6. Intro to ARIA (Screen Reader)
 
 ![](https://media.giphy.com/media/3ohs7Xfl0tjxIfVth6/giphy.gif)
 
 
-###Stylin' and Vibin'!
+#Stylin' and Vibin'! :sparkles:
 
-- Building Mobile first!
-- Splitting up our CSS
-- Using Flexbox and Flex Grid
-- Manipulateing diffrent types of Media with CSS Blend Modes
-- Using Materialize (Using a External CSS Library)
-- Intro to KeyFrames
+
+1. Building Mobile first!
+2. Splitting up our CSS
+3. Using Flexbox and Flex Grid
+4. Manipulateing diffrent types of Media with CSS Blend Modes
+5. Using Materialize (Using a External CSS Library)
+6. Intro to KeyFrames
 
 
 ![](https://thumbs.gfycat.com/HideousPhonyJoey-size_restricted.gif)
 
 
-### Javascript can do that for me?
-- Making our own Data to use
-- How to write basic functions to build the page for us
-- Making a Interactive Menu
-- Common Gotchas and Problems
-- Intro to the Concept of _State_
+# Javascript can do that for me? :fire:
+
+1. Making our own Data to use
+2. How to write basic functions to build the page for us
+3. Making a Interactive Menu
+4. Common Problems :sweat_drops:
+5. Intro to the Concept of _State_
 
 ![](https://media.giphy.com/media/VeLkCUzRldjI4/giphy.gif)
 
-## Who this is for
+## Who this is for?
 
-Really this is for a Beginner who has a basic understanding of How HTML and CSS work in the browser and is starting to learn Javascript. Even though this project is particularly easy for more experienced users there are some hidden gems that you may have overlooked! Take your time! Run it,Change it, Break it!
+Really this is for a Beginner who has a basic understanding of How HTML and CSS work in the browser and is starting to learn Javascript. Even though this project is particularly easy for more experienced users there are some hidden gems that you may have overlooked! Take your time! Run it, Change it, Break it!
 
 
 ## Requirements
