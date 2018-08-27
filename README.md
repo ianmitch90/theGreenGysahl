@@ -4,6 +4,8 @@
 > new to web development? This project is a living document! This means with time more and more features will be added, changed, and removed. The goal is to have fun, and more importantly an intermedate step in building simple static websites with Vanilla HTML, CSS, Javascript!
 ![Alt Text](https://media.giphy.com/media/fSy1OjveCznws/giphy.gif)
 
+Live Version: https://ianmitch90.github.io/theGreenGysahl/
+
 
 ## Getting Started :runner:
 
