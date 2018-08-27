@@ -21,35 +21,39 @@ Objectives:
 
 
 The main objectives are the following:
-* Really using HTML and making it work for us
-    * Understanding how to layout properly
-    * Using Defined Tags to our Advantage
-    * Optimizing for Mobile
-    * Preloading Assets!
-    * Utilizing more of the Browser
-    * Intro to ARIA (Screen Reader)
+
+####Really using HTML and making it work for us
+
+- Understanding how to layout properly
+- Using Defined Tags to our Advantage
+- Optimizing for Mobile
+- Preloading Assets!
+- Utilizing more of the Browser
+- Intro to ARIA (Screen Reader)
+
 
 ![](https://media.giphy.com/media/3ohs7Xfl0tjxIfVth6/giphy.gif)
 
 
-* Stylin' and Vibin'!
-    * Building Mobile first!
-    * Splitting up our CSS
-    * Using Flexbox and Flex Grid
-    * Manipulateing diffrent types of Media with CSS Blend Modes
-    * Using Materialize (Using a External CSS Library)
-    * Intro to KeyFrames
+###Stylin' and Vibin'!
+
+- Building Mobile first!
+- Splitting up our CSS
+- Using Flexbox and Flex Grid
+- Manipulateing diffrent types of Media with CSS Blend Modes
+- Using Materialize (Using a External CSS Library)
+- Intro to KeyFrames
 
 
 ![](https://thumbs.gfycat.com/HideousPhonyJoey-size_restricted.gif)
 
 
-* Javascript can do that for me?
-    * Making our own Data to use
-    * How to write basic functions to build the page for us
-    * Making a Interactive Menu
-    * Common Gotchas and Problems
-    * Intro to the Concept of _State_
+### Javascript can do that for me?
+- Making our own Data to use
+- How to write basic functions to build the page for us
+- Making a Interactive Menu
+- Common Gotchas and Problems
+- Intro to the Concept of _State_
 
 ![](https://media.giphy.com/media/VeLkCUzRldjI4/giphy.gif)
 
