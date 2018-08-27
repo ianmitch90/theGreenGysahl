@@ -17,7 +17,7 @@ cd HipsterAirlinesExample
 open index.html
 ```
 
-#Really using HTML and making it work for us :muscle:
+# Really using HTML and making it work for us :muscle:
 
 1. Understanding how to layout properly
 2. Using Defined Tags to our Advantage
@@ -29,7 +29,7 @@ open index.html
 ![](https://thumbs.gfycat.com/ShadyUnhappyBobwhite-size_restricted.gif)
 
 
-#Stylin' and Vibin'! :sparkles:
+# Stylin' and Vibin'! :sparkles:
 
 
 1. Building Mobile first!
