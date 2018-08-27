@@ -1,10 +1,9 @@
 # The Green Gysahl
+
 ## This serves as a guide to those starting out in Web Development
 > new to web development? This project is a living document! This means with time more and more features will be added, changed, and removed. The goal is to have fun, and more importantly an intermedate step in building simple static websites with Vanilla HTML, CSS, Javascript!
 ![Alt Text](https://media.giphy.com/media/fSy1OjveCznws/giphy.gif)
 
-
-#Overview
 
 ## Getting Started
 
@@ -18,7 +17,7 @@ cd HipsterAirlinesExample
 open index.html
 ```
 
-##Objectives
+Objectives:
 
 
 The main objectives are the following:
@@ -29,7 +28,8 @@ The main objectives are the following:
     * Preloading Assets!
     * Utilizing more of the Browser
     * Intro to ARIA (Screen Reader)
-![Alt Text](https://thumbs.gfycat.com/LeadingDownrightBlacklab-size_restricted.gif)
+
+![Alt Text](https://media.giphy.com/media/3ohs7Xfl0tjxIfVth6/giphy.gif)
 
 
 * Stylin' and Vibin'!
@@ -50,7 +50,8 @@ The main objectives are the following:
     * Making a Interactive Menu
     * Common Gotchas and Problems
     * Intro to the Concept of _State_
-![Alt Text](https://gfycat.com/ZigzagOrnateIndianabat)
+
+![Alt Text](https://media.giphy.com/media/VeLkCUzRldjI4/giphy.gif)
 
 ## Who this is for
 
