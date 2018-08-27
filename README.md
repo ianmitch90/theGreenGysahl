@@ -17,8 +17,6 @@ cd HipsterAirlinesExample
 open index.html
 ```
 
-#Objectives:
-
 #Really using HTML and making it work for us :muscle:
 
 1. Understanding how to layout properly
