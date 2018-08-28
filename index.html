@@ -54,6 +54,8 @@
     <meta property="og:image" content="https://vignette.wikia.nocookie.net/finalfantasy/images/4/4f/Gysahl_Green_XIV.jpg/revision/latest/scale-to-width-down/1024?cb=20130629163723" />
     <meta property="og:description" content="A Beginners Guide To Web Development with HTML/CSS/Javascript" />
     <meta property="og:site_name" content="The Green Gysahl" />
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="300">
 
     <!-- linking and preloading all assets/fonts ensuring it loaded faster when the html needs it -->
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Josefin+Slab:100|Quicksand" as="style">
@@ -131,13 +133,18 @@
 <!-- main content here! this is where my sections will go  -->
     <main>
         <!-- so why section our work? well i personally think its great 
-        to outline in our mind how  -->
+        to outline in our mind how content needs to be grouped.  -->
         <section>
             <div class="hero">
-                <div class="heroImg"></div>
+                <div class="heroImg">
+                    mascot image
                 <div class="heroIconsContainer">
-                    <div class="heroIcons"></div>
-                    <div class="heroDesc"></div>
+                    <div class="heroIcons">
+                        3 icons here
+                    </div>
+                    <div class="heroDesc">
+                        for the traveling food lover
+                    </div>
                 </div>
             </div>
         </section>
@@ -146,7 +153,10 @@
             <div class="communitySection">
                 <h1>World Wide Community</h1>
                 <h2>Connect with Thousands across Eos!</h2>
-                <div class="communityComments"></div>
+                <div class="communityComments">
+                    <!-- heres where the js will generate comments out of an array, and 
+                    then we will use the styles.css to animate the ease-in entrances  -->
+                </div>
             </div>
         </section>
         
@@ -158,7 +168,13 @@
                     <span>Before the Eternal night falls upon us all.</span>
                 </div>
                 <div class="exploreLocations">
-    
+                     <!-- heres where we will make js to manage these for us, but its just simple
+                    to just add these directly here right? well yes! however this can be practice
+                    for managing content for later. what if there are more locations later?
+                    would it be easier to just add another object thats already in an array? 
+                    what if you didnt want the order to be the same every time a user views
+                    this page? building for the you in future that has to maintain this. -->
+                    list of locations 
                 </div>
             </div>
         </section>
