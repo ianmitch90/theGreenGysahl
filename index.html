@@ -1,18 +1,43 @@
 <!DOCTYPE html>
 
 <html lang="en">
+<!-- HolyMoly!!!!! look at all these meta tags and links!!!!!! 🌪
+    this is a little bit much right? here are a few things we are trying to acomplish with these
+    lets take it section by section:
 
+    1) your standard meta tags Charset/Viewport/Compatibility check for IE=Edge browsers
+    
+    2) twitter! every tag is pretty self descriptive however we use this as a preview card
+    everytime twitter will try and make a neat preview card for us to make it appealing to visit!
+    
+    3) Open Graph: so remember how we gave twitter images and info to make a preview for us? well
+    well the opengraph protocol allows us to make a generalized card, and allow the service using
+    our link to have the information to make a preview card!
+    
+    4) preloading: so generally this is not useful here since our assets are shipped with our html
+    this is not providing us with a lot of performance gains. HOWEVER lets say you had a
+    remote font/css/images/videos/etc that is on another server? this lets the browser know that
+    whatever you are preloading has HIGH PRIORITY, usually these are critical assets that you dont
+    want to show up after the page is built. we can avoid problems with connection issues/file size/etc
+    
+    5) Favicons: i love favicons!!! these are the images that show up on your tab/bookmarks/app icons/etc
+    it allows your site to have some flavor when someone is saving it or viewing it. usually a logo
+    or some image relevant to your site would go here. take note of the diffrent versions and sizes
+    are saved in the /favicon folder! for now try and use a favicon generator and then customize what
+    you want until you are able to make your own from scratch 
+
+    FINNNNALLLLY SOMETHING IM USED TO: 💦
+    finishing up with the head tag, we have our website Title/Google Fonts/Styles.css
+        **Important stuff to pay attn to!
+            but didn't you preload this already? sure! i did! however that was for the browser to go
+            out before it builds the page! i never told it to USE anything! please visit the 
+            HTML preload specification online!!! and like i said before it's not useful for this
+            project but, it's good to know what EXACTLY it does for you!
+         -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Josefin+Slab:100|Quicksand" as="style">
-    <link rel="preload" href="style.css" as="style">
-
-    
-    <title>The Green Gysahl</title>
-
     <meta name="description" content="A Beginners Guide To Web Development with HTML/CSS/Javascript" />
 
     <!-- Twitter Card data -->
@@ -30,13 +55,68 @@
     <meta property="og:description" content="A Beginners Guide To Web Development with HTML/CSS/Javascript" />
     <meta property="og:site_name" content="The Green Gysahl" />
 
+    <!-- linking and preloading all assets/fonts ensuring it loaded faster when the html needs it -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Josefin+Slab:100|Quicksand" as="style">
+    <link rel="preload" href="style.css" as="style">
+    
+    <!-- all the things for our favicon (putting an icon on the tab) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#16a085">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    <title>The Green Gysahl</title>
+    
+    
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Josefin+Slab:100|Quicksand" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+
 </head>
 
+<!-- Lets Get Started!!!!! ⚡️
+
+        So! you know allll the things dealing with what SHOWS UP ON THE PAGE!
+        ok so i like to designate a header/main/footer and then use mostly divs for other things
+        why? well for accesibility reasons since im adding aria tags it's a bit over kill to use all
+        the HTML tags ONTOP of ARIA attr.
+
+        Objectives this Page:
+            -Simple ARIA
+            -Themeing/Setting a Design pattern
+            -Contrast and Readability (see styles.css )
+            -Mobile First Way of Thinking
+
+     ⭕️ IMPORTANT NOTICE ABOUT ARIA SCREEN READERS!
+        *** NO ARIA IS BETTER THAN BAD ARIA *** 
+    
+            wait, what? are you going to show us the proper way to do it? NOPE! this is going
+            to get you started intergrating ARIA slowly!!! REMEMBER! there is NO VISUAL COMPONENT!!
+            A good way to think about how your site's USER EXPERIENCE is going from VIDEO PODCAST to
+            a AUDIO ONLY PODCAST! meaning, add as much relevant description! explain when you can
+            and be concise but, it's like totally but kind of, but honestly don't ramble...... 
+            oh no! i already messed up! 💦 
+    
+        Your ALT-er EGO!!!!! anything requires you to see just go ahead and throw an alt attr on it!
+        it's just generally good practice EVEN IF THE ALT IS EMPTY always put it on
+        helps screen reading defaults but also if something should fail lets say an image or video
+        doesn't load properly the user can easily figure out was was SUPPOSED TO BE THERE and that
+        something went wrong and they usually might refresh the page.
+
+    Flexbox and Flex Grid! thats all CSS stuff! but i'll get into that in depth in the Explore page
+
+    to see how this page looks WITHOUT styles just copy line 76 and then delete and refresh your browser
+
+        -->
 <body>
+    <!-- header? wait isnt nav just fine? Sure! its all up to you, again these HTML tags
+        have limited functionality but are useful for seperating out content and groups -->
     <header>
         <nav>
+            <!-- notice in-between my nav tags i have 3 DIRECT CHILDREN that lets me have greater control of how these groups are displayed in my nav when i go to style this nav tag later -->
             <div class="navMenu">
                 menu here
             </div>
@@ -48,31 +128,42 @@
             </ul>
         </nav>
     </header>
+<!-- main content here! this is where my sections will go  -->
+    <main>
+        <!-- so why section our work? well i personally think its great 
+        to outline in our mind how  -->
+        <section>
+            <div class="hero">
+                <div class="heroImg"></div>
+                <div class="heroIconsContainer">
+                    <div class="heroIcons"></div>
+                    <div class="heroDesc"></div>
+                </div>
+            </div>
+        </section>
 
-    <div class="hero">
-        <div class="heroImg"></div>
-        <div class="heroIconsContainer">
-            <div class="heroIcons"></div>
-            <div class="heroDesc"></div>
-        </div>
-    </div>
-
-    <div class="communitySection">
-        <h1>World Wide Community</h1>
-        <h2>Connect with Thousands across Eos!</h2>
-        <div class="communityComments"></div>
-    </div>
+        <section>
+            <div class="communitySection">
+                <h1>World Wide Community</h1>
+                <h2>Connect with Thousands across Eos!</h2>
+                <div class="communityComments"></div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="exploreSection">
+                <div class="exploreHeading">
+                    <h1>Explore and Rate</h1>
+                    <h2>With Tens of Twenty places to go why not visit them all?</h2>
+                    <span>Before the Eternal night falls upon us all.</span>
+                </div>
+                <div class="exploreLocations">
     
-    <div class="exploreSection">
-        <div class="exploreHeading">
-            <h1>Explore and Rate</h1>
-            <h2>With Tens of Twenty places to go why not visit them all?</h2>
-            <span>Before the Eternal night falls upon us all.</span>
-        </div>
-        <div class="exploreLocations">
+                </div>
+            </div>
+        </section>
+    </main>
 
-        </div>
-    </div>
     <footer>
         © Square Enix all rights reserved
     </footer>
