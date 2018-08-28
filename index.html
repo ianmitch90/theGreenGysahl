@@ -13,6 +13,8 @@
     3) Open Graph: so remember how we gave twitter images and info to make a preview for us? well
     well the opengraph protocol allows us to make a generalized card, and allow the service using
     our link to have the information to make a preview card!
+    heres a great article on why all of this is important!
+    https://neilpatel.com/blog/open-graph-meta-tags/
     
     4) preloading: so generally this is not useful here since our assets are shipped with our html
     this is not providing us with a lot of performance gains. HOWEVER lets say you had a
@@ -25,6 +27,11 @@
     or some image relevant to your site would go here. take note of the diffrent versions and sizes
     are saved in the /favicon folder! for now try and use a favicon generator and then customize what
     you want until you are able to make your own from scratch 
+
+    **overview of social media META TAGS**
+    https://css-tricks.com/essential-meta-tags-social-media/
+    remember: you can also get analytics of traffic and general information if you are ever intrested
+    using even more meta tags! get comfortable using them!
 
     FINNNNALLLLY SOMETHING IM USED TO: 💦
     finishing up with the head tag, we have our website Title/Google Fonts/Styles.css
@@ -48,6 +55,10 @@
     <meta name="twitter:image:src" content="https://vignette.wikia.nocookie.net/finalfantasy/images/4/4f/Gysahl_Green_XIV.jpg/revision/latest/scale-to-width-down/1024?cb=20130629163723">
 
     <!-- Open Graph data -->
+    <!-- a great tool to check your OG (orginal gangsta meta tags 😎) 
+     https://developers.facebook.com/tools/debug/ 
+     just post ur link (usually your github live link so that it can scrape it and give you feedback)
+     this is also great documentation about best practices -->
     <meta property="og:title" content="The Green Gysahl" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://ianmitch90.github.io/theGreenGysahl/" />
@@ -57,7 +68,9 @@
     <meta property="og:image:width" content="400">
     <meta property="og:image:height" content="300">
 
-    <!-- linking and preloading all assets/fonts ensuring it loaded faster when the html needs it -->
+    <!-- linking and preloading all assets/fonts ensuring it loaded faster when the html needs it
+    documentation on what this is doing: 
+    https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content -->
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Josefin+Slab:100|Quicksand" as="style">
     <link rel="preload" href="style.css" as="style">
     
