@@ -72,7 +72,7 @@
     documentation on what this is doing: 
     https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content -->
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Josefin+Slab:100|Quicksand" as="style">
-    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="styles.css" as="style">
     
     <!-- all the things for our favicon (putting an icon on the tab) -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -88,6 +88,7 @@
     
     
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Josefin+Slab:100|Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
 
 </head>
@@ -133,7 +134,7 @@
         <nav>
             <!-- notice in-between my nav tags i have 3 DIRECT CHILDREN that lets me have greater control of how these groups are displayed in my nav when i go to style this nav tag later -->
             <div class="navMenu">
-                menu here
+                <img src="./Assets/gyashlIcon.png" alt="Logo">
             </div>
             <span>The Green Gysahl</span>
             <ul>
@@ -148,16 +149,35 @@
         <!-- so why section our work? well i personally think its great 
         to outline in our mind how content needs to be grouped.  -->
         <section>
-            <div class="hero">
-                <div class="heroImg">
-                    mascot image
-                <div class="heroIconsContainer">
-                    <div class="heroIcons">
-                        3 icons here
+            <div class="foodGrid">
+                <div class="heroMascot">
+                    <img src="./Assets/CT_Chocobo.png" alt="chocobo mascot">
+                </div>
+                <div class="iconsContainer">
+                    <div class="area-overlap iconsHeader">
+                        <h1>Who we Rate:</h1>
                     </div>
-                    <div class="heroDesc">
-                        for the traveling food lover
+                    <div class="foodIcon">
+                        <img src="./Assets/Diner-ffxv-mapicon.png" alt="Diner Icon">
+                        <h2>
+                            Diners
+                        </h2>
                     </div>
+                    <div class="grocerIcon">
+                        <img src="./Assets/NoodleWagon-ffxv-mapicon.png" alt="Noodle Wagon Icon">
+                        <h2>
+                            Noodle Wagons
+                        </h2>
+                    </div>
+                    <div class="soupIcon">
+                        <img src="./Assets/Grocer-ffxv-mapicon.png" alt="Grocer Icon">
+                        <h2>
+                            Grocers
+                        </h2>
+                    </div>
+                </div>
+                <div class="heroHeadline">
+                    <h1>For the Food Lover and Traveling Adventurer</h1>
                 </div>
             </div>
         </section>
@@ -181,13 +201,26 @@
                     <span>Before the Eternal night falls upon us all.</span>
                 </div>
                 <div class="exploreLocations">
-                     <!-- heres where we will make js to manage these for us, but its just simple
-                    to just add these directly here right? well yes! however this can be practice
-                    for managing content for later. what if there are more locations later?
-                    would it be easier to just add another object thats already in an array? 
-                    what if you didnt want the order to be the same every time a user views
-                    this page? building for the you in future that has to maintain this. -->
-                    list of locations 
+                    <div class="city">
+                        <img src="./Assets/ff15-altissia.jpg" alt="Image of Altissia">
+                        <h2>Altissia</h2>
+                    </div>
+                    <div class="city">
+                        <img src="./Assets/ff15-insomnia.jpg" alt="Image of Insomnia">
+                        <h2>Insomnia</h2>
+                    </div>
+                    <div class="city">
+                        <img src="./Assets/FFXV_Tenebrae_Artwork.png" alt="Image of Tenebrae">
+                        <h2>Tenebrae</h2>
+                    </div>
+                    <div class="city">          
+                        <img src="./Assets/Gralea-and-Zegnautus-Keep-FFXV.png" alt="Image of Gralea">
+                        <h2>Gralea</h2>
+                    </div>
+                    <div class="city">
+                        <img src="./Assets/Lestallum-Artwork2-FFXV.png" alt="Image of Lestallum">
+                        <h2>Lestallum</h2>
+                    </div>
                 </div>
             </div>
         </section>

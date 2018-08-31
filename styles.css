@@ -1,0 +1,221 @@
+/*
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Josefin Slab', serif;
+font-family: 'Quicksand', sans-serif;
+*/
+
+body {
+background-image: url('./Assets/Confetti-Doodles.svg'),
+linear-gradient(80deg,
+#2e86de 0%,
+#0652DD 75%,
+#10ac84 75%);
+background-size: contain;
+background-attachment: fixed;
+background-blend-mode: overlay;
+
+}
+h1 {
+    font-size: 3.5rem;
+    font-family: 'Fredericka the Great', cursive;
+}
+h2 {
+    font-family: 'Josefin Slab', serif;
+}
+p , span {
+ font-family: 'Quicksand', sans-serif;  
+}
+header, footer {
+    height: 10vh;
+}
+
+nav {    
+  display: grid;
+  height: 100%;
+  grid-template-columns: 0.5fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 5px 5px;
+  grid-template-areas: ". . .";
+  background-color: #2f3640;
+
+}
+nav img {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+    align-self: center;
+    justify-self: center;
+}
+nav span {
+    align-self: center;
+    justify-self: center;
+    font-size: 2em;
+    color: #6ab04c;
+}
+nav span, 
+nav .navMenu,
+nav li, nav a{
+    align-self: center;
+
+    text-decoration: none;
+
+}
+
+nav ul {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 5px 5px;
+  grid-template-areas: ". . ."; 
+  list-style-type: none;
+}
+
+
+.foodGrid {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1px 1px;
+  padding-top: 5em;
+  margin-bottom: 5em;
+  background-image: 
+  url("./Assets/heroImg.jpeg"), 
+  linear-gradient(20deg, #22a6b3 0%, #686de0 100%);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+
+}
+
+.heroMascot { 
+    grid-area: 1 / 1 / 2 / 2;
+    background: linear-gradient(to bottom, #ff7979 0%, #ffbe76 100%);
+    mix-blend-mode: hard-light;
+    align-self: center;
+    justify-self: center;
+    border-radius: 50%;
+    }
+
+.iconsContainer {
+  display: grid;
+  grid-area: 1 / 2 / 2 / 3;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1px 1px;
+  align-self: center;
+  justify-self: center;
+}
+
+.iconsHeader { 
+    grid-area: 1 / 1 / 2 / 4;
+    text-align: center;
+}
+
+.foodIcon { grid-area: 2 / 1 / 3 / 2; }
+
+.grocerIcon { grid-area: 2 / 2 / 3 / 3; }
+
+.soupIcon { grid-area: 2 / 3 / 3 / 4; }
+
+.heroHeadline { 
+    grid-area: 2 / 1 / 3 / 3;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+ }
+
+.grocerIcon, .soupIcon, .foodIcon {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2em;
+}
+
+.heroMascot img {
+    height: 12em;
+    width: 12em;
+}
+
+
+.foodIcon img,
+.grocerIcon img,
+.soupIcon img {
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    align-self: center;
+    justify-self: center;
+}
+
+
+.communitySection {
+    background-image: 
+    url("./Assets/Eos-FFXV.png"),
+    linear-gradient(10deg, #6ab04c 0%, #7ed6df 100%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-blend-mode: hard-light;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.communitySection h1, 
+.communitySection h2 {
+    background-image: 
+    url('./Assets/lines.svg'),
+    linear-gradient(40deg, #130f40 0%, #535c68 100%);
+    background-blend-mode: overlay;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.exploreSection {
+    padding: 3rem;
+    background: linear-gradient(55deg, #eb4d4b 0%, #535c68 100%);
+    opacity: 0.8;
+
+}
+.exploreLocations {
+    display: flex;
+    flex-direction: column;
+}
+.city {
+    display: flex;
+    flex-direction: row;
+    height: 55vh;
+   
+}
+.city img {
+ height: 75%;
+ width: 75%;
+ margin-top: 2rem;
+
+}
+.city h2 {
+    writing-mode: vertical-rl;
+    font-size: 5rem;
+}
+
+
+footer {
+    background: #2f3640;
+    background-image: url('./Assets/lines.svg');
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
