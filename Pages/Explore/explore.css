@@ -1,0 +1,19 @@
+ * {
+     font-family: 'Advent Pro', sans-serif;
+ }
+h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+h2 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+body {
+    height: 100vh;
+    background-image: url('../../Assets/Confetti-Doodles.svg'), linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
