@@ -34,7 +34,6 @@ body {
 }
 
 .heroText {
-    
     grid-area: heroText;
     align-self: center;
     justify-self: center;
@@ -52,9 +51,9 @@ body {
     justify-self: center;
 }
 .CTA button {
-    padding: 3rem;
-    padding-right: 4rem;
-    padding-left: 4rem;
+    padding: 2rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
     border: 2px solid green;
     background-color: #44bd32;
     border-radius: 5px;
@@ -84,4 +83,16 @@ video {
         height: 100%;
         object-fit: cover;
         object-position: center;
+}
+
+@media only screen and (max-width: 480px),
+only screen and (max-device-width: 480px) {
+    .heroText h1 {
+        font-size: 10vh;
+    }
+    .CTA button {
+    padding: 1.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    }
 }
